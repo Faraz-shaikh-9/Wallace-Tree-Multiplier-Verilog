@@ -6,6 +6,14 @@ This project implements a 4x4 Wallace Tree Multiplier in Verilog HDL using Carry
 
 The design demonstrates efficient multiplier architecture commonly used in high-speed digital systems and VLSI designs.
 
+## Architecture
+
+1. Generate partial products.
+2. Reduce partial products using Carry Save Adders (CSA).
+3. Shift carry outputs by one bit.
+4. Use an 8-bit Carry Lookahead Adder (CLA) for final addition.
+5. Produce the final 8-bit multiplication result.
+
 ## Features
 
 * Verilog HDL implementation
